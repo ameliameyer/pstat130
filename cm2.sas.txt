@@ -1,0 +1,8 @@
+data students;
+input Name : $20. Dept : $6. A 2.;
+datalines;
+elizabeth PSTAT 23
+jonathan ECON 22
+zack MATH 19
+;
+run;
