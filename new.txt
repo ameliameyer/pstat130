@@ -1,0 +1,7 @@
+name age
+zack 18
+hanna 21
+danny 26
+cody 30
+malia 16
+greg 10
