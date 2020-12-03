@@ -1,0 +1,11 @@
+Dataset:  us17902000.dat
+
+Source: US Census Bureau
+
+Description: Census population for US: 1790-2000
+
+Variables/Columns:
+
+Year 5-8
+Population  15-23
+Decade Number  26-31

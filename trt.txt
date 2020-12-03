@@ -1,0 +1,7 @@
+; There are two space delimited variables
+; id is the subject id
+; trt is the treatment assignment
+id trt
+Z1 A
+Z2 A
+Z3 B
