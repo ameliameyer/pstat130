@@ -1,0 +1,39 @@
+libname data0 '/folders/myfolders/data0';
+
+proc contents data=data0.laboratory;
+run;
+
+proc print data=data0.laboratory;
+run;
+
+data first;
+set data0.laboratory;
+by id;
+if first.id;
+run;
+
+data last;
+set data0.laboratory;
+by id;
+if last.id;
+run;
+
+data change1;
+merge first(rename=value=baseline) last;
+by id;
+change = baseline - value;
+run;
+
+proc print; run;
+
+data change2;
+set data0.laboratory;
+by id;
+if first.id eq 1 then baseline = value;
+change = baseline - value;
+if last.id then output;
+retain;
+run;
+
+proc print; run;
+
