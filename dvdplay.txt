@@ -1,0 +1,24 @@
+Dataset: dvdplay.dat
+
+Source: Consumer Electronics Association and thedigitalbits.com
+
+Description: Monthly DVD player sales in U.S. since format launched
+in March,1997. Data for June,2004 only thru June 25.
+
+Variables/Columns
+
+Month abbreviation  1-3
+Year                13-16
+Players sold        18-24
+series month        31-32
+Feb dummy           40
+Mar dummy           48
+Apr dummy           56
+May dummy           64
+Jun dummy           72
+Jul dummy           80
+Aug dummy           88
+Sep dummy           96
+Oct dummy          104
+Nov dummy          112
+Dec dummy          120
